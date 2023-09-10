@@ -19,5 +19,5 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["src", "uno.config.*", "vite.config.*", "unocss.config.ts"]
+  "include": ["src", "vite.config.*", "unocss.config.ts"]
 }

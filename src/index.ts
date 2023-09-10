@@ -12,7 +12,7 @@ export interface PrimitivesOptions {
 
 export default function (options: PrimitivesOptions = {}): Preset {
   const { prefix = 'ui' } = options
-  const variants = 'open|checked|selected|active|disabled'
+  const variants = 'open|checked|selected|active|expanded|disabled|loading'
   const selector = 'data-vex-state'
 
   return {
